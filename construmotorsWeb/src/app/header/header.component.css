@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: 100;
+}
+
+.headContainer{
+    border-style: dotted;
+    display: flex;
+    width: 99%;
+    font-size: 20px;
+    position: fixed;
+}
+
+.headContainer img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
+    height: 70px;
+    margin-left: 10%;
+}
+
+.headContainer .menu{
+    display: block;
+    margin-left: 50%;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headContainer .menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.headContainer .menu li a{
+    text-decoration: none;
+}
