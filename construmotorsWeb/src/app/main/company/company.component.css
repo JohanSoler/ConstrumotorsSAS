@@ -64,8 +64,20 @@ h1{
 
 .client{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    margin-left: 20%;
+    grid-template-columns: 200px 200px;
+    margin-left: 35%;
+}
+
+.support{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 30%;
+}
+
+.support img{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 150px;
 }
 
 .client img{
