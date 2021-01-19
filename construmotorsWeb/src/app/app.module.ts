@@ -11,6 +11,9 @@ import { FooterComponent } from './footer/footer.component';
 
 //Bootstrap
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { GaleryComponent } from './galery/galery.component';
+import { CommunicateComponent } from './communicate/communicate.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     SliderComponent,
     CompanyComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    GaleryComponent,
+    CommunicateComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
