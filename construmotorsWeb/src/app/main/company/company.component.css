@@ -1,0 +1,75 @@
+.content{
+    border: 0;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.horizontalLine{
+    height: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #002792;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.card{
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.card .content{
+    width: fit-content;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.card .content .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card img{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 350px;
+    height: 150px;
+}
+
+.clientTitle{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.clientTitle .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+.client{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-left: 20%;
+}
+
+.client img{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 150px;
+}
