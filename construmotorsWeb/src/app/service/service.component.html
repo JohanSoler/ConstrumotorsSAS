@@ -2,7 +2,31 @@
 
 <div class="serviceContainer">
     <mat-card class="card">
-        <img src="https://res.cloudinary.com/nsdata/image/upload/v1611021054/ConstrumotorsSAS/qsnvlru11rysunrcbm24.jpg">
+        <ngb-carousel *ngIf="mantenimiento" class="slider">
+            <ng-template *ngFor="let image of mantenimiento" ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="{{image}}" alt="Random first slide">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+
+        <p class="title">
+            Mantenimiento
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis, orci at pretium aliquet, nisi sapien mollis dui, nec sagittis nibh massa volutpat tortor. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet vestibulum ex, ut pellentesque leo. Phasellus a purus luctus, pellentesque velit non, vehicula purus. Nullam non massa luctus, auctor turpis a, molestie leo. Nulla felis tortor.
+        </p>
+    </mat-card>
+
+    <mat-card class="card">
+        <ngb-carousel *ngIf="mantenimiento" class="slider">
+            <ng-template *ngFor="let image of mantenimiento" ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="{{image}}" alt="Random first slide">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+
         <p class="title">
             Mantenimiento
         </p>

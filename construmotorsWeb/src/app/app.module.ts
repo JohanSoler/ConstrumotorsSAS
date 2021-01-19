@@ -8,7 +8,6 @@ import { SliderComponent } from './main/slider/slider.component';
 import { CompanyComponent } from './main/company/company.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { GaleryComponent } from "../app/service/galery/galery.component";
 
 //Bootstrap
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";

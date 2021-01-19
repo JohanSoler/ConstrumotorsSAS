@@ -32,3 +32,14 @@
 .card p{
     text-align: center;
 }
+
+.slider{
+    height: 240px;
+}
+
+.slider img{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 400px;
+    height: 70%;
+}
