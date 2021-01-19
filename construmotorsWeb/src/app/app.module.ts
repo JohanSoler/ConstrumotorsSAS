@@ -15,6 +15,9 @@ import { GaleryComponent } from './galery/galery.component';
 import { CommunicateComponent } from './communicate/communicate.component';
 import { ServiceComponent } from './service/service.component';
 
+//Material
+import { MatCardModule } from '@angular/material/card';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +33,8 @@ import { ServiceComponent } from './service/service.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
