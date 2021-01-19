@@ -18,6 +18,9 @@ import { ServiceComponent } from './service/service.component';
 //Material
 import { MatCardModule } from '@angular/material/card';
 
+//Google
+import { GoogleMapsModule } from "@angular/google-maps";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +37,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    MatCardModule
+    MatCardModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
