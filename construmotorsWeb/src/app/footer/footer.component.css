@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(192, 192, 192);
+    height: 100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 15px;
+}
