@@ -8,10 +8,10 @@ import { SliderComponent } from './main/slider/slider.component';
 import { CompanyComponent } from './main/company/company.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { GaleryComponent } from "../app/service/galery/galery.component";
 
 //Bootstrap
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import { GaleryComponent } from './galery/galery.component';
 import { CommunicateComponent } from './communicate/communicate.component';
 import { ServiceComponent } from './service/service.component';
 
@@ -20,7 +20,6 @@ import { MatCardModule } from '@angular/material/card';
 
 //Google
 import { GoogleMapsModule } from "@angular/google-maps";
-import { PicturesComponent } from './galery/pictures/pictures.component';
 
 @NgModule({
   declarations: [
@@ -30,10 +29,8 @@ import { PicturesComponent } from './galery/pictures/pictures.component';
     CompanyComponent,
     HeaderComponent,
     FooterComponent,
-    GaleryComponent,
     CommunicateComponent,
-    ServiceComponent,
-    PicturesComponent
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
