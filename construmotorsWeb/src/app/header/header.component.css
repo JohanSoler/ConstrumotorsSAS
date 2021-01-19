@@ -16,6 +16,10 @@
     z-index: 100;
 }
 
+.headContainer {
+    padding-left: 200PX;
+}
+
 .headContainer img{
     margin-top: auto;
     margin-bottom: auto;

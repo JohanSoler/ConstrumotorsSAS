@@ -20,6 +20,7 @@ import { MatCardModule } from '@angular/material/card';
 
 //Google
 import { GoogleMapsModule } from "@angular/google-maps";
+import { PicturesComponent } from './galery/pictures/pictures.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GoogleMapsModule } from "@angular/google-maps";
     FooterComponent,
     GaleryComponent,
     CommunicateComponent,
-    ServiceComponent
+    ServiceComponent,
+    PicturesComponent
   ],
   imports: [
     BrowserModule,
