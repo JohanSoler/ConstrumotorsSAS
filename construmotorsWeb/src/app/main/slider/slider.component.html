@@ -1,1 +1,25 @@
-<p>slider works!</p>
+<div class="content">
+    <ngb-carousel *ngIf="images" class="slider">
+        <ng-template *ngFor="let image of images" ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img src="{{image}}" alt="Random first slide">
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+    
+    <div class="Text">
+        <p>
+            Bienvenido a <Br> 
+            Contrumotors <Br>
+            S.A.S
+            </p>
+    
+        <div class="verticalLine">
+    
+        </div>
+    </div>
+</div>

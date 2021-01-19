@@ -1,0 +1,42 @@
+*{
+    height: 700px;
+}
+
+.slider{
+    background-color: #99f5fc;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+img{
+    width: 120%;
+}
+
+.Text{
+    height: 400px;
+    background-color: #7c7c7cb6;
+    margin-top: 10%;
+    margin-left: 50%;
+    text-align: right;
+    display: flex;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    z-index: 3;
+}
+
+.Text p{
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.verticalLine{
+    margin-left: 20px;
+    width: 10px;
+    height: 400px;
+    background-color: #757575;
+}
